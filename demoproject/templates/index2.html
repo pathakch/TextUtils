@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Utils</title>
+</head>
+<body>
+Welcome This is django Website !
+<!--{{name}} is from {{place}}-->
+<h1>Enter your text here</h1>
+<form action='analyze',method='get'>
+   <textarea name="text" style='margin: 0px; width: 542px; height: 108px;'> </textarea><br>
+    <input type="checkbox" name="removepunc"> Remove punctuations<br>
+    <input type="checkbox" name="fullcaps"> UPPERCASE<br>
+    <input type="checkbox" name="newlineremover"> New Line Remover<br>
+    <input type="checkbox" name="extraspaceremover">Remove extra space <br>
+    <button type="submit">Analyze Text</button>
+
+</form>
+</body>
+</html>
